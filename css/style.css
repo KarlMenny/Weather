@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+body {
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+
+.main-content {
+	width: 100%;
+	background: #3399cc;
+	border-width: 18px;
+	border-color: #2b81ac;
+	border-style: solid;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	color: #fff;
+}
+
+/*Header--------------------------------------------------------*/
+
+.main-content header {
+	width: 75%;
+	margin: 0 auto;
+	padding: 2em 0 2em;
+}
+
+.main-content header h1,
+.main-content header span {
+	display: inline-block;
+}
+
+.main-content header span {
+	font-size: 1.8em;
+	margin-left: .2em;
+}
+
+/*Main--------------------------------------------------------*/
+
+.main-content .weather {
+	width: 75%;
+	margin: 0 auto;
+	border-width: 3px;
+	border-color: #fff;
+	border-style: solid;
+	cursor: pointer;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	transition: transition: all .1s ease-in;
+}
+
+.weather:hover li {
+	opacity: 0.5;
+} 
+
+.weather ul:hover li:hover {
+	opacity: 1;
+}
+
+.weather ul {
+	font-size: 0;
+}
+
+.weather li {
+	display: inline-block;
+	padding: 3em 0 3em;
+	list-style-type: none;
+	text-align: center;	
+	font-size: 12pt;
+	border: 3px solid white;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.weather li:nth-child(1) {
+	width: 50%;
+}
+
+.weather li:nth-child(2) {
+	width: 25%;
+	background: #33cccc;
+}
+
+.weather li:nth-child(3) {
+	width: 25%;
+	background: #996699;
+}
+
+.weather li:nth-child(4) {
+	width: 25%;
+	background: #c24747;
+}
+
+.weather li:nth-child(5) {
+	width: 25%;
+	background: #e2674a;
+}
+
+.weather li:nth-child(6) {
+	width: 25%;
+	background: #ffcc66;
+}
+
+.weather li:nth-child(7) {
+	width: 25%;
+	background: #99cc99;
+}
+
+.weather li:nth-child(8) {
+	width: 25%;
+	background: #669999;
+}
+
+.weather li:nth-child(9) {
+	width: 50%;
+	background: #cc6699;
+}
+
+.weather li:nth-child(10) {
+	width: 25%;
+	background: #339966;
+}
+
+.weather li:nth-child(11) {
+	width: 100%;
+	background: #666699;
+}
+
+.weather li h2 {
+	margin-bottom: .4em;
+}
+
+.weather li span {
+	vertical-align: middle;
+	opacity: 0.7;
+}
+
+.weather li span:first-of-type {
+	font-size: 20pt;
+}
+
+.weather li span:last-child {
+	font-size: 30pt;
+	margin-left: .1em;
+}
+
+/*Footer--------------------------------------------------------*/
+
+.main-content footer {
+	width: 75%;
+	margin: 0 auto;
+	padding: 2.5em 0 10em;
+	font-size: 14pt;
+}
+
+
+
+
+
+
+
+
+
+
+
